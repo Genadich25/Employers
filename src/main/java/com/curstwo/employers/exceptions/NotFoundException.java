@@ -6,5 +6,5 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import java.util.NoSuchElementException;
 
 @ResponseStatus(HttpStatus.NOT_FOUND)
-public class NotFound extends NoSuchElementException {
+public class NotFoundException extends NoSuchElementException {
 }
